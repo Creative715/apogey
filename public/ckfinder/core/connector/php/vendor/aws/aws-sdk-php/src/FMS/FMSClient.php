@@ -1,0 +1,63 @@
+<?php
+namespace Aws\FMS;
+
+use Aws\AwsClient;
+use Aws\Result;
+use GuzzleHttp\Promise\Promise;
+
+/**
+ * This client is used to interact with the **Firewall Management Service** service.
+ * @method Result associateAdminAccount(array $args = [])
+ * @method Promise associateAdminAccountAsync(array $args = [])
+ * @method Result deleteAppsList(array $args = [])
+ * @method Promise deleteAppsListAsync(array $args = [])
+ * @method Result deleteNotificationChannel(array $args = [])
+ * @method Promise deleteNotificationChannelAsync(array $args = [])
+ * @method Result deletePolicy(array $args = [])
+ * @method Promise deletePolicyAsync(array $args = [])
+ * @method Result deleteProtocolsList(array $args = [])
+ * @method Promise deleteProtocolsListAsync(array $args = [])
+ * @method Result disassociateAdminAccount(array $args = [])
+ * @method Promise disassociateAdminAccountAsync(array $args = [])
+ * @method Result getAdminAccount(array $args = [])
+ * @method Promise getAdminAccountAsync(array $args = [])
+ * @method Result getAppsList(array $args = [])
+ * @method Promise getAppsListAsync(array $args = [])
+ * @method Result getComplianceDetail(array $args = [])
+ * @method Promise getComplianceDetailAsync(array $args = [])
+ * @method Result getNotificationChannel(array $args = [])
+ * @method Promise getNotificationChannelAsync(array $args = [])
+ * @method Result getPolicy(array $args = [])
+ * @method Promise getPolicyAsync(array $args = [])
+ * @method Result getProtectionStatus(array $args = [])
+ * @method Promise getProtectionStatusAsync(array $args = [])
+ * @method Result getProtocolsList(array $args = [])
+ * @method Promise getProtocolsListAsync(array $args = [])
+ * @method Result getViolationDetails(array $args = [])
+ * @method Promise getViolationDetailsAsync(array $args = [])
+ * @method Result listAppsLists(array $args = [])
+ * @method Promise listAppsListsAsync(array $args = [])
+ * @method Result listComplianceStatus(array $args = [])
+ * @method Promise listComplianceStatusAsync(array $args = [])
+ * @method Result listMemberAccounts(array $args = [])
+ * @method Promise listMemberAccountsAsync(array $args = [])
+ * @method Result listPolicies(array $args = [])
+ * @method Promise listPoliciesAsync(array $args = [])
+ * @method Result listProtocolsLists(array $args = [])
+ * @method Promise listProtocolsListsAsync(array $args = [])
+ * @method Result listTagsForResource(array $args = [])
+ * @method Promise listTagsForResourceAsync(array $args = [])
+ * @method Result putAppsList(array $args = [])
+ * @method Promise putAppsListAsync(array $args = [])
+ * @method Result putNotificationChannel(array $args = [])
+ * @method Promise putNotificationChannelAsync(array $args = [])
+ * @method Result putPolicy(array $args = [])
+ * @method Promise putPolicyAsync(array $args = [])
+ * @method Result putProtocolsList(array $args = [])
+ * @method Promise putProtocolsListAsync(array $args = [])
+ * @method Result tagResource(array $args = [])
+ * @method Promise tagResourceAsync(array $args = [])
+ * @method Result untagResource(array $args = [])
+ * @method Promise untagResourceAsync(array $args = [])
+ */
+class FMSClient extends AwsClient {}

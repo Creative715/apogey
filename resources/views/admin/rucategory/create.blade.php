@@ -1,0 +1,24 @@
+@extends('admin.layouts.admin')
+
+@section('content')
+
+<div class="container">
+
+  @component('admin.components.breadcrumb')
+    @slot('title') Створення категорії @endslot
+    @slot('parent') Головна @endslot
+    @slot('active') Категорії @endslot
+  @endcomponent
+
+  <hr />
+
+  <form enctype="multipart/form-data" encrypt="multipart/form-data" action="{{route('admin.rucategory.store')}}" method="post">
+    @csrf
+
+    {{-- Form include --}}
+    @include('admin.rucategory.partials.form')
+
+  </form>
+</div>
+
+@endsection
